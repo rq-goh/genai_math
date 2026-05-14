@@ -39,7 +39,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument('--rubric-path', required=True, help='Path to rubric text/markdown file.')
     p.add_argument('--question', default='', help='Optional question/prompt identifier.')
     p.add_argument('--student-id', default='', help='Optional student identifier.')
-    p.add_argument('--model', default='gpt-4.1', help='OpenAI model for rubric-based grading.')
+    p.add_argument('--model', default='gpt-5-mini', help='OpenAI model for rubric-based grading.')
     return p.parse_args()
 
 
